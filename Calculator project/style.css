@@ -1,0 +1,43 @@
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    text-align: center;
+}
+
+.calculator{
+    border: 2px solid black;
+    display: inline-block;
+    border-radius: 8px;
+    background: aquamarine;
+
+}
+.calculator table{
+    margin: auto;
+}
+
+.calculator input{
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 260px;
+    height: 28px;
+    margin-top: 1px;
+    font-size: 25px;
+    
+}
+
+.calculator button{
+    width: 59px;
+    height: 53px;
+    /* border: 1px solid black; */
+    border-radius: 13px;
+    margin: 2px;
+    background:whitesmoke;
+    font-size: 20px;
+    
+}
+
+.calculator button:hover{
+    background-color: antiquewhite;
+}
